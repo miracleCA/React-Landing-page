@@ -1,0 +1,40 @@
+.whybg{
+    background-color: #c9dcec;
+    height: max-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.whybg h2{
+    font-size: 36px;
+    color: #0D0C33;
+    line-height: 62px;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: center;
+}
+#whyrow .col-md-4{
+    padding: 1%;
+}
+#cardmain {
+    text-align: center;
+    background: transparent;
+    border: none;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#cardmain h4{
+    font-size: 28px;
+    color: black;
+}
+#cardmain p{
+    color: black;
+}
+@media screen and (min-width: 300px)and (max-width: 767px) {
+    .whybg h2{
+        font-size: 30px;
+        line-height: 62px;
+        padding-top: 20px;
+    }
+}

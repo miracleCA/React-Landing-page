@@ -1,0 +1,55 @@
+.Nav{
+    background-color: #ffffff;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+}
+/*nav{
+    background-color: #ffffff;
+}*/
+#navlogo{
+    width: 50%;
+}
+#buttn{
+    color: transparent;
+    border: 2px solid blue;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+}
+#dbtn{
+    background-color: #5472DC;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.navbar li{
+    color: #C1C1C1;
+    font-weight: 600;
+    font-family: poppins;
+}
+.navbar .active{
+    padding-right: 20px;
+}
+#contact{
+    padding-right: 33px;
+}
+#active{
+    color: #5472DC;
+}
+@media screen and (max-width: 620px) {
+    #navlogo{
+        width: 170px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navbar .active{
+        padding-right: 0px;
+    }
+    #contact{
+        padding-right: 0px;
+    }
+    .navbar li{
+        text-align: center;
+    }
+}

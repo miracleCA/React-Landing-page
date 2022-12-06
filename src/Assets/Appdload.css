@@ -1,0 +1,117 @@
+.dbg{
+    background-color: #F9F9F9;
+    height: fit-content;
+    display: flex;
+}
+#dd{
+    padding-top: 5%;
+    padding-left: 7%;
+}
+#dht{  
+    font-family: Poppins;
+    font-size: 70px;
+    line-height: 81px;
+    color: #030D13;
+    width: 776px;
+    font-weight: 10px;
+}
+#dt{
+    font-size: 28px;
+    color: #838383;
+    text-align: start;
+    line-height: 40px;
+}
+#mobcol{
+    height: fit-content;
+}
+#mob{
+    height: 90%;
+    width: auto;
+    margin-left: 10%;
+}
+#Appwrapper{
+    display: flex;
+}
+#Appwrapper img{
+    width: max-content;
+}
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+    .dbg {
+        padding-bottom: 0px;
+    }
+    #dht {
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        width: 450px;
+    }
+    #dt {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #Appwrapper {
+        display: flex;
+        width: max-content;
+    }
+    #Appwrapper img{
+        width: 40%;
+    }
+    #mob {
+        height: auto;
+        width: 90%;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 699px) {
+    .dbg {
+        display: grid;
+        padding-top: 10%;
+        padding-bottom: 10%
+    }
+    #dd {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    #dht{
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    
+    #dt {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    }
+    #Appwrapper {
+        display: grid;
+    }
+    #Appwrapper img {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    #mobcol{
+        display: none;
+    }
+}
+/*@media screen and (width: px){
+    .dbg {
+        padding-bottom: 20px;
+    }
+    #dht {
+        font-size: 40px;
+        line-height: 43px;
+        width: 430px;
+    }
+    #dt {
+        line-height: 23px;
+    }
+    #mob {
+        height: auto;
+        width: 90%;
+        margin-left: 35%;
+    }
+}*/

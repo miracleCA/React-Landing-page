@@ -1,0 +1,246 @@
+#ftbg{
+  background-color: #0D0C33;
+  position: relative;
+}
+#ftcont{
+    display: flex;
+    height: max-content;
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    font-family: poppins;
+}
+#Hlogo{
+    padding-top: 45px;
+    width: 60%;
+}
+#copy{
+    font-size: 18px;
+    text-align: start;
+    padding-left: 10%;
+    line-height: 70px;
+}
+#footlinks{
+    padding-top: 100px;
+    display: flex;
+}
+#footlinks h4{
+    font-size: 25px;
+}
+#footlinks span{
+    text-align: left;
+}
+#footurls{
+  color: white;
+  text-decoration: none;
+}
+#footurls:hover{
+  color: #5472DC;
+}
+#TC{
+    display: grid;
+}
+#footsoc{
+    padding-top: 100px;
+    text-align: center;
+}
+#footsoc p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 12.5%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 5px;
+    border-radius: 28px;
+  }
+  
+  .fa:hover {
+    background: #0D0C33;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: white;
+    color: #0D0C33;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: #0D0C33;
+  }
+  .fa-linkedin {
+    background: white;
+    color: #0D0C33;
+  }
+  .fa-instagram {
+    background: white;
+    color: #0D0C33;
+  }
+#lastfoot{
+    height: 50px;
+}
+#lastfoot p{
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    text-align: center;
+}
+@media screen and (min-width: 300px)and (max-width: 767px) {
+  #ftcont{
+    display: grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#Hlogo{
+    padding-top: 40px;
+    width: 50%;
+}
+#copy{
+    font-size: 17px;
+    text-align: center;
+    padding-left: 0%;
+}
+#footlinks{
+    text-align: center;
+    width: 100%;
+    padding-top: 0px;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+#divA span{
+  text-align: start;
+}
+#footlinks .col-md-6{
+  width: inherit;
+}
+#footlinks h4{
+    font-size: 20px;
+    width: max-content;
+}
+#footlinks span{
+    font-size: 14px;
+    text-align: left;
+}
+#TC{
+  width: max-content;
+}
+#footsoc{
+    padding-top: 0px;
+    text-align: center;
+}
+#footsoc p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 42px;
+  }
+#lastfoot p{
+    color: white;
+    font-size: 13px;
+    font-family: poppins;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  #divA {
+    order: 3;  
+    text-align: center;
+    padding-right: 10%;
+  }
+  #divB {
+     order: 1;
+     text-align: start;
+  }
+  #divA span{
+    text-align: start;
+  }
+  #divC{
+    order: 2;
+  }
+}
+@media screen and (min-width: 501px) {
+  #divC{
+    display: none;
+  }
+}
+@media screen and (min-width: 768px)and (max-width: 1100px) {
+  #ftcont{
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#Hlogo{
+    padding-top: 7px;
+    width: 70%;
+}
+#copy{
+    font-size: 15px;
+    text-align: start;
+    padding-left: 10%;
+    line-height: 20px;
+}
+#footlinks{
+  padding-top: 20px;
+  width: 33%;  
+  text-align: center;
+}
+#footlinks h4{
+    font-size: 20px;
+    text-align: start;
+}
+#footlinks span{
+    text-align: left;
+    font-size: 14px;
+}
+#divB{
+  width: max-content;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#TC{
+  width: max-content;
+}
+.col-md-6 h4{
+  text-align: start;
+}
+span{
+  text-align: left;
+  margin: inherit;
+}
+#footsoc{
+    padding-top: 0px;
+    text-align: center;
+}
+#footsoc p{
+  padding-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 42px;
+  }
+#lastfoot p{
+    color: white;
+    font-size: 17px;
+    font-family: poppins;
+    text-align: center;
+  }
+}
+

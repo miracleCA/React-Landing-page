@@ -1,0 +1,123 @@
+#controw{
+    background-color: #A4CEFF;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+}
+#controw .col-md-2{
+    width: 17%;
+}
+#controw .col-md-8{
+    background-color: #F9F9F9;
+    display: flex;
+    border-radius: 10px;
+    height: fit-content;
+}
+.col-md-8 .col-md-7{
+    background-color: #F6F6F6;
+}
+#telimg{
+    width: 100%;
+    height: 90%;
+    background-color: #F6F6F6;
+}
+.col-md-8 .col-md-5{
+    height: 95%;
+    text-align: center;
+    margin: auto;
+}
+#formwrapper{
+    height: 100%;
+}
+form{
+    text-align: center;
+}
+#formtitle{
+    font-size: 30px;
+    font-family: poppins;
+    letter-spacing: 1.5%;
+    font-weight: bold;
+}
+.input-container {
+    width: 100%;
+    padding-bottom: 5px;
+}
+#error{
+    color: red;
+    font-family: poppins;
+    font-size: 15px;
+    padding-top: 7px;
+    margin: auto;
+}
+.input-field {
+    width: 90%;
+    padding: 10px 10px;
+    outline: none;
+    margin: auto;
+    background-color: #EDEDED;
+    border-radius: 12px;
+    border: 2px solid #cac8c8;
+}
+.input-field::placeholder{
+    color: #929191;;
+}
+.input-field:focus {
+    border: 2px solid #0D0C33;
+}
+textarea{
+    justify-self: center;
+    width: 90%;
+    border-radius: 12px;
+    background-color: #EDEDED;
+    border: 2px solid #cac8c8;
+}
+textarea::placeholder{
+    color: #929191;;
+}
+textarea:focus {
+    border: 2px solid #0D0C33;
+  }
+#btn {
+    background-color: #0D0C33;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+  #btn:hover {
+    color: #0D0C33;
+    background-color: #ffffff;
+    border: 2px solid #0D0C33;
+    font-weight: bold;
+  }
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    #controw{
+        background-color: #A4CEFF;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #controw .col-md-8{
+        display: grid;
+    }
+    .col-md-8 .col-md-7{
+        display: none;
+    }
+    .col-md-8 .col-md-5{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #error{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    #controw .col-md-8{
+        width: auto
+}
+}

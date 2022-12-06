@@ -1,0 +1,99 @@
+#doc{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#cert{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#feed{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#rev{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#rate{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#cons{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.listing{
+    background-color: #F5F5FF;
+    display: flex;
+}
+#bimg{
+    background-image: url('../Images/Health icon.png');
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#bimg2{
+    background-image: url('../Images/Hospital bed.png');
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .col-xs-6{
+        width: 50%;
+    }
+    #doc{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #cert{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #feed{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #rev{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #rate{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #cons{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #docimg{
+        width: 70%;
+    }
+    #feedimg{
+        width: 70%;
+    }
+    #revimg{
+        width: 70%;
+    }
+    #certimg{
+        width: 70%;
+    }
+    #rateimg{
+        width: 70%;
+    }
+    #consimg{
+        width: 70%;
+    }
+}

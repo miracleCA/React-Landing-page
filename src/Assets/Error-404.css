@@ -1,0 +1,47 @@
+.erorrmain{
+    text-align: center;
+    font-family: poppins;
+    color: red;
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+}
+.erorrmain h1{
+    font-size: 70px;
+    text-align: center;
+}
+#errspan{
+    color: black;
+}
+.erorrmain p{
+    font-size: 30px;
+    text-align: center;
+}
+#homelink{
+    text-decoration: none;
+    color: rgb(19, 94, 155);
+    font-weight: bold;
+}
+#homelink:hover{
+    color: #2723a3;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .erorrmain{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .erorrmain h1{
+        font-size: 50px;
+    }
+    .erorrmain p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    .erorrmain{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .erorrmain p{
+        font-size: 25px;
+    }
+}

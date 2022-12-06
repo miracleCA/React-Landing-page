@@ -1,0 +1,45 @@
+.Partners{
+    text-align: center;
+    background-color: #E5F5FF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Partners h2{
+    font-family: poppins;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1.5%;
+    font-size: 25px;
+}
+.partners{
+    display: flex;
+    margin: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.partners .col-2{
+    margin: auto;
+    width: max-content;
+}
+.partners img{
+    width: -webkit-fill-available;
+}
+@media screen and (max-width: 600px) {
+    .Partners h2{
+        font-size: 20px;
+    }
+    .partners{
+        display: grid;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: max-content;
+    }
+    .partners .col-2{
+        margin: 0;
+
+    }
+    .partners img{
+        width: 150px;
+    }
+}

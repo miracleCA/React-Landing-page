@@ -1,0 +1,39 @@
+#demobg{
+    position: relative;
+    justify-content: center;
+    background-color: #0D0C33;
+    height: fit-content;
+    font-family: Source Sans pro ;
+    font-weight: 600;
+    display: grid;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+#demotext{
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}
+video {
+    width: 110%;
+    height: 400px;
+    background-color: black;
+    justify-self: center;
+}
+@media screen and (min-width: 300px)and (max-width: 540px) {
+    video {
+        width: 80%;
+        justify-self: center;
+        height: fit-content;
+    }
+}
+@media screen and (min-width: 541px)and (max-width: 1000px) {
+    video {
+        width: 80%;
+        justify-self: center;
+    }
+    #demobg{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}

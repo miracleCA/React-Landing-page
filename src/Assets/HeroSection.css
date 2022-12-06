@@ -1,0 +1,223 @@
+.Herosec{
+    height: 671px;
+    background-color: #E5F5FF;
+    display: flex;
+}
+.Herosec .col-md-6{
+    padding-left: 87px;
+}
+.Herotext{
+    padding-top: 112px;
+    font-size: 70px;
+    font-weight: 600;
+    color: #0D0C33;
+    line-height: auto;
+    width: 822px;
+    font-family: Source Sans Pro;
+}
+#subtext{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    line-height: 170%;
+    color: #000000;
+    text-align: start;
+}
+#Herobtn{
+    background-color: #5472DC;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#HeroImg{
+    width: fit-content;
+    height: fit-content;
+}
+@media only screen and (max-width: 600px){
+    .Herosec{
+        height: fit-content;
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .Herosec .col-md-6{
+        width: 50%;
+        padding-left: 0px;
+    }
+    .Herotext{
+        font-size: 25px;
+        padding-top: 0px;
+        color: #0D0C33;
+        width: 250px;
+    }
+    #sub{
+        width: 150%;
+    }
+    #subtext{
+        font-size: 15px;
+        line-height: 170%;
+        width: 240px;
+        font-weight: 300;
+    }
+    #space{
+        display: none;
+    }
+    #HeroImg{
+        height: -webkit-fill-available;
+	    width: fit-content;
+    }
+    #headimg{
+        height: 280px;
+        width: inherit;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Herotext{
+        font-size: 18.5px;
+    }
+    #space{
+        display: block;
+    }
+    #sub{
+        width: 60%;
+    }
+    #subtext{
+        font-size: 12px;
+        width: 170px;
+    }
+    #headimg{
+        margin-left: 0px;
+    }
+    #Herobtn{
+        padding-left: 26px;
+        padding-right: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        width: max-content;
+        font-weight: bold;
+    }
+}
+
+/*@media only screen and (max-width: 400px){
+    .Herosec{
+        height: 500px;
+        background-color: #E5F5FF;
+        display: flex;
+    }
+    .Herosec .col-6{
+        padding-left: 0px;
+    }
+    #textcol{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .Herotext{
+        padding-top: 20px;
+        font-size: 19px;
+        font-weight: 100px;
+        color: #0D0C33;
+        line-height: auto;
+        width: max-content;
+        font-family: Source Sans Pro;
+    }
+    #subtext{
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        line-height: initial;
+        color: #251313;
+    }
+    #Herobtn{
+        padding: 10px;
+    }
+    #HeroImg{
+        width: max-content;
+        height: max-content;
+    }
+    #HeroImg img{
+        width: 40%;
+        height: 40%;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 767px){
+    .Herosec{
+        height: max-content;
+        display: grid;
+        background-image: url('../Images/black-woman-with-stethoscope 1.png');
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;    }
+    .Herosec .col-6{
+        padding-left: 0px;
+    }
+    #textcol{
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #textcol h1{
+        text-shadow: #E5F5FF;
+    }
+    .Herotext{
+        text-shadow: #E5F5FF;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: 100px;
+        color: #0D0C33;
+        width: 100%;
+    }
+    #space{
+        display: none;
+    }
+    #subtext{
+        font-size: 20px;
+        line-height: initial;
+        color: #251313 50%;
+        text-align: center;
+    }
+    #HeroImg img{
+        display: none;
+    }
+}*/
+@media only screen and (min-width: 600px) and (max-width: 1180px){
+    .Herosec{
+        height: max-content;
+    }
+    .Herosec .col-md-6{
+        padding-left: 87px;
+        width: 50%;
+    }
+    #textcol{
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .Herotext{
+        padding-top: 20px;
+        font-size: 43px;
+    }
+    #subtext{
+        font-family: Source Sans Pro;
+        font-size: 20px;
+        line-height: initial;
+        color: #251313 50%;
+    }
+    #HeroImg{
+        width: inherit;
+        height: inherit;
+    }
+    #HeroImg img{
+        width: 300px;
+    }
+} 
+@media only screen and (min-width: 1001px) and (max-width: 1020px){
+    .Herotext{
+        font-size: 50px;
+    }
+}
